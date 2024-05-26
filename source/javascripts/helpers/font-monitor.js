@@ -13,7 +13,7 @@ MEME.waitForFonts = function(callback) {
 
   // Setup loader values:
   var deferred = this.$.Deferred();
-  var loadedFonts = 0;
+  let loadedFonts = 0;
   var pendingFonts = [];
 
   function PendingFont(font) {
